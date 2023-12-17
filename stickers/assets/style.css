@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;   
+    box-sizing: border-box;
+    background-color: black;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
+    font-weight: bold;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .card,input{
+      margin-top: 20px;
+      border-color: red;
+      border-width: 5px;
+      border-radius: 5px;
+      background-color: white;
+      width: 100px;
+    }
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    color: yellow;
+    .final,p{
+        color: yellow;
+        width: 400px;
+    }
+    .final,button{
+        margin-top: 20px;
+        border-color: yellow;
+        border-radius: 5px;
+        border-width: 5px;
+        width: 100px;
+        height: 40px;
+        font-weight: bold;
+        background-color: yellow;
+    }
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0 auto;   
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: solid 5px;
+}
+
+.keys{
+    display: flex;
+    margin:20px;
+    justify-content:center;
+    .keys,input{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
+.validacion{
+    display: flex;
+    flex-direction: column;
+    .validacion,p{
+        margin: 10px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        padding-top: 5px;
+    }
+}
